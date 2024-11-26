@@ -4,7 +4,7 @@
   padding:0;
   box-sizing: border-box;
   /* outline: 1px dashed #000; */
-}
+} 
 
 html{
   font-size: 16px;                                /* 1 rem used on the page == 16px  */
@@ -34,6 +34,10 @@ body{
 
 .btn-primary-shadow{
   box-shadow: .1rem .3rem .5rem rgba(0, 0, 0, 0.5);
+}
+
+.btn-success-shadow{
+ box-shadow: .1rem .3rem .5rem rgba(0, 0, 0, 0.5);
 }
 
 /* banner colours */
@@ -73,3 +77,29 @@ body{
   background-image: url("../img/imgplaceholder.png");
   /* text-indent: -9999px; */ /* remove or comment out text indent if all images are available */
 }
+
+/* Footer */
+/* .container-bg{
+  background-color: #1f2125;
+  color: white;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  
+}
+
+  .circle {
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    align-content: center;
+  
+} */
+
+.footer-logo-container {
+  width: 150px; 
+  height: 150px;
+}
+
+
+
